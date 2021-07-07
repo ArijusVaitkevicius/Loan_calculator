@@ -1,0 +1,9 @@
+2021-07-07 15:27:44,139:INFO: * Restarting with stat
+2021-07-07 15:27:46,471:WARNING: * Debugger is active!
+2021-07-07 15:27:46,477:INFO: * Debugger PIN: 507-571-078
+2021-07-07 15:27:46,673:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-07 15:27:46,814:INFO:127.0.0.1 - - [07/Jul/2021 15:27:46] "GET /calculator HTTP/1.1" 200 -
+2021-07-07 15:27:51,440:INFO:pickle file created
+2021-07-07 15:27:51,440:INFO:Created loan_data dictionary:{'M\u0117n. Nr.': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 'Gr\u0105žintina dalis, Eur': [100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0], 'Likutis, Eur': [900.0, 800.0, 700.0, 600.0, 500.0, 400.0, 300.0, 200.0, 100.0, 0.0], 'Priskai\u010diuotos pal\u016bkanos, Eur': [8.33, 7.5, 6.67, 5.83, 5.0, 4.17, 3.33, 2.5, 1.67, 0.83], 'Bendra Mok\u0117tina suma, Eur': [108.33, 107.5, 106.67, 105.83, 105.0, 104.17, 103.33, 102.5, 101.67, 100.83]}
+2021-07-07 15:27:52,003:INFO:Created loan payment schedule with the following data: amount:1000 interest:10.0 term:10
+2021-07-07 15:27:52,015:INFO:127.0.0.1 - - [07/Jul/2021 15:27:52] "POST /calculator HTTP/1.1" 200 -

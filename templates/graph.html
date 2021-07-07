@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block title %}
+Grafikas
+{% endblock %}
+{% block content %}
+<body class="text-center">
+   <div class="container">
+      <br><br>
+      <a class="btn btn-outline btn-warning"  href="/static/likutis{{ name }}">Likučio grafikas</a>
+      &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+      <a class="btn btn-outline btn-warning" href="/static/palukanos{{ name }}">Palūkanų grafikas</a>
+      &emsp;
+      <br><br>
+      {% for table in tables %}
+      {{ table|safe }}
+      {% endfor %}
+      <br><br>
+   </div>
+</body>
+<style>
+   .btn {
+   width: 23%;
+   }
+</style>
+{% endblock %}
